@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+body{
+    width:100%;
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #707070;
+}
+
+.produtos{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    height: 200px;
+}
+
+
+footer{
+    height: 90px;
+    bottom:0;
+    position:fixed;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+
+}
