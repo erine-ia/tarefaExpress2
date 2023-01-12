@@ -14,15 +14,35 @@ app.use(express.static('public'))
 
 app.get('/produtos', (req, res)=>{
 
-    const produtos ={
+    const prod =[
+      {
+
         title:'Camiseta',
-        value: '7,80',
+        value: '57,80',
+        description: 'Branca P-M-G'
+
+      },
+
+      {
+        title:'Blusa',
+        value: '87,90',
+        description: 'Branca P-M-G'
+
+
+    },
+    {
+        title:'Calça',
+        value: '55,80',
         description: 'Branca P-M-G'
 
 
     }
 
-    res.render('produtos', {produtos})
+
+
+]
+
+    res.render('produtos', {prod})
 })
 app.get('/', (req, res)=>{
     res.render('home')

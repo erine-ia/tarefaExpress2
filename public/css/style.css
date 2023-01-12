@@ -26,11 +26,26 @@ header{
     background-color: #707070;
 }
 
+
 .produtos{
-    background-color: white;
-    width: 20%;
+    width:80%;
+    margin: 5% auto;
+    display:grid;
+    grid-auto-flow: row;
+}
+
+
+.produto{
+    background-color: rgb(226, 226, 226);
+    width: 25%;
     text-align: center;
+    height: 300px;
+}
+
+.produto img{
+    width: 100%;
     height: 200px;
+    
 }
 
 
